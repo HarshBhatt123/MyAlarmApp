@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/AlarmBtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20sp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159"
+        app:srcCompat="@drawable/allarmmm" />
+
+    <ImageButton
+        android:id="@+id/TimerBtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/samay"
+        android:layout_marginTop="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AlarmBtn"
+        app:layout_constraintVertical_bias="0.271"
+
+        tools:src="@drawable/samay" />
+
+    <ImageButton
+        android:id="@+id/StopwatchBtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20sp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TimerBtn"
+        app:layout_constraintVertical_bias="0.462"
+        app:srcCompat="@drawable/stop" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="Alarm"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toTopOf="@+id/TimerBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AlarmBtn"
+        app:layout_constraintVertical_bias="0.172" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="Timer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toTopOf="@+id/StopwatchBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TimerBtn"
+        app:layout_constraintVertical_bias="0.273" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="Stopwatch"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StopwatchBtn"
+        app:layout_constraintVertical_bias="0.136" />
+</androidx.constraintlayout.widget.ConstraintLayout>

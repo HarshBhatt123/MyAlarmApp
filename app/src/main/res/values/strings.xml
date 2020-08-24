@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyAlarmApp</string>
+    <string name="title_activity_ring">RingActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string-array name="numbers">
+        <item>Ringtone 1</item>
+        <item>Ringtone 2</item>
+        <item>Ringtone 3</item>
+
+    </string-array>
+
+    <string name="default_notification_channel_id">alarm_channel_id_01</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
